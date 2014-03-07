@@ -10,6 +10,7 @@ Clone the repository
 
 Install the dependencies
 
+    $ cd whats-my-emi
     $ bundle install
 
 Start the application
