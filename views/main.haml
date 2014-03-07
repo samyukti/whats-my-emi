@@ -1,0 +1,23 @@
+.row
+  .col-md-3
+  .col-md-6
+    %form.form-horizontal{id: "form_emi", data: {action: "/emi.json"}}
+      %legend EMI
+      .form-group
+        %label.col-sm-3.control-label{for: "principal"} Principal
+        .col-sm-9
+          %input.form-control{type: "text", id: "principal", placeholder: "Enter principal amount"}
+          %span.help-block e.g. 100000
+        %label.col-sm-3.control-label{for: "principal"} Rate
+        .col-sm-9
+          %input.form-control{type: "text", id: "rate", placeholder: "Enter annual rate in %"}
+          %span.help-block e.g. 10
+        %label.col-sm-3.control-label{for: "principal"} Term
+        .col-sm-9
+          %input.form-control{type: "text", id: "term", placeholder: "Enter the loan term in months"}
+          %span.help-block e.g. 120
+      %button.btn.btn-default.pull-right{type: "submit", id: "get_emi"} Calculate
+.row
+  .col-md-3
+  .col-md-6
+    %h2.results.text-center
