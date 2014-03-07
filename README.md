@@ -6,7 +6,7 @@ A simple Sinatra app to calculate EMI using Amortizer gem, as part of training a
 
 Clone the repository
 
-    $ git clone https://github.com/samyukti/WhatsMyEMI.git
+    $ git clone https://github.com/samyukti/whats-my-emi.git
 
 Install the dependencies
 
