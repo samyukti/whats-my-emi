@@ -1,7 +1,9 @@
+source 'https://rubygems.org'
+
 gem 'sinatra'
 gem 'haml'
 gem 'json'
-gem 'amortizer', git: 'https://github.com/samyukti/amortizer'
+gem 'amortizer'
 group :test do
   gem 'rack-test'
   gem 'rspec'
